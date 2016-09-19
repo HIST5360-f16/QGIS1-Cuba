@@ -14,7 +14,7 @@ Author: charles.grand@mavs.uta.edu
 
 4.	Set up CRS (Coordinate Reference System) so that the project is using the NAD27/Cuba Norte Geographic Coordinate system. Go to "Project Properties" under the File menu. Make sure you are in the CRS tab, and then click "Enable on the fly CRS transformation" at the top of the panel. You can then search for NAD27/Cuba Norte and apply the change at the bottom of the panel.
 
-![CRS selection](/Screenshots/CRS selection.png)
+![CRS selection](Screenshots/CRS selection.png)
 
 5.	Build a base map: Open these vectors, then change the way they look using by making adjustments under each's “Properties.”
     - CUB\_adm0.shp; change so there is no color fill. Click on fill style and select simple line
