@@ -7,23 +7,23 @@ Author: charles.grand@mavs.uta.edu
 1.	Make a folder or directory called "Cuba" on your computer.
 
 2.	Download the following Cuba data sets from [DIVA-GIS](http://www.diva-gis.org/gData) into that directory and unzip them; each should be in its own sub-directory.
-    -	Administrative Areas CUB\_adm.ZIP
-    -	Roads CUB\_rds.ZIP
+    *	Administrative Areas CUB\_adm.ZIP
+    *   Roads CUB\_rds.ZIP
 
-3. 	Open QGIS and set up up a new project.
+3. 	Open QGIS and set up a new project.
 
 4.	Set up CRS (Coordinate Reference System) so that the project is using the NAD27/Cuba Norte Geographic Coordinate system. Go to "Project Properties" under the File menu. Make sure you are in the CRS tab, and then click "Enable on the fly CRS transformation" at the top of the panel. You can then search for NAD27/Cuba Norte and apply the change at the bottom of the panel.
 
 ![CRS selection](Screenshots/CRS selection.png)
 
-5.	Build a base map: Open these vectors, and then change the way they look using "properties."
-    - CUB\_adm0.shp; change so there is no color fill. Click on fill style and select simple line.
-    - CUB\_adm1.shp; just as above, click on fill style and selct simple line.
-    - CUB\_roads.shp; change the color and width of the lines so they are easier to see.
+5.	Build a base map: Open these vectors, and then change the way they look by using "properties."
+    * CUB\_adm0.shp; change so there is no color fill. Click on fill style and select simple line.
+    * CUB\_adm1.shp; just as above, click on fill style and selct simple line.
+    * CUB\_roads.shp; change the color and width of the lines so they are easier to see.
 
 ![No fill outline](/Screenshots/No fill outline.png)
 
-6.	right click on the CUB\_adm1.shp layer and go to "view attribute table." These show the country’s 14 provinces. Note which one of the columns gives the name of the province. Make note of the name of that column. Close the attribute table. Go into the “properties” for CUB\_adm1.shp and click on “labels”. Change it so that your map shows the names of the provinces in a large font (i.e. 18 pt).
+6.	Right click on the CUB\_adm1.shp layer and go to "view attribute table." These show the country’s 14 provinces. Make note of which one of the columns gives the name of the province. Close the attribute table. Go into the “properties” for CUB\_adm1.shp and click on “labels”. Change it so that your map shows the names of the provinces in a large font (i.e. 18 pt).
 
 7. Download "Cuba, island, georif.zip" from the repository folder. Import the .tif file into QGIS as a raster file. The map "Cuba, Island" can be downloaded [here](http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~6264~115902445:Cuba-en-Iamaica,-soo-als-die-door-K?sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&qvq=q:cuba;sort:normalized_date%2Cfile_name%2Csource_author%2Csource_title;lc:JCBMAPS~1~1&mi=52&trs=126).
 
@@ -41,3 +41,4 @@ Author: charles.grand@mavs.uta.edu
 1. Country GIS base map data is from [http://www.diva-gis.org/gdata](http://www.diva-gis.org/gData)
 2. "Cuba, Island" historical map can be downloaded [here](http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~6264~115902445:Cuba-en-Iamaica,-soo-als-die-door-K?sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&qvq=q:cuba;sort:normalized_date%2Cfile_name%2Csource_author%2Csource_title;lc:JCBMAPS~1~1&mi=52&trs=126)
 3. "Port of Havana" historical map can be downloaded [here](http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~1~1~1089~101600001:Port-de-la-Havane-dans-l-Isle-de-Cu?sort=normalized_date%2Cfile_name%2Csource_author%2Csource_title&qvq=q:havana;sort:normalized_date%2Cfile_name%2Csource_author%2Csource_title;lc:JCBMAPS~1~1&mi=21&trs=32)
+![Fidel Castro](http://www.telegraph.co.uk/content/dam/news/2016/04/19/3530361_Cuban_leader_Fidel_Castro-large_trans++eo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg "Fidel Castro")
